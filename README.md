@@ -3,7 +3,7 @@
 
 Để giúp các bạn đánh giá chính xác năng lực của mình, đồng thời cũng giúp công ty xây dựng kế hoạch sử dụng, phát triển năng lực của các bạn, chúng tôi có một bài kiểm tra năng lực nhỏ.
 
-Dưới đây là mô tả yêu cầu của tính năng 
+Dưới đây là mô tả yêu cầu của tính năng: 
 
 ## Quản lý thẻ tích điểm của khách hàng
 
@@ -37,7 +37,7 @@ Dưới đây là mô tả yêu cầu của tính năng
 
 ### Hạng thẻ
 
-- Là trường để phân loại thẻ tích điểm, với các hạng khác nhau, khách hàng sẽ có các ưu đãi riêng
+- Là trường để phân loại thẻ tích điểm, với các hạng khác nhau, khách hàng sẽ có các ưu đãi riêng.
 - Thông tin chi tiết:
 
 |Trường thông tin | Mô tả | Thuộc tính |
@@ -55,7 +55,7 @@ Dưới đây là mô tả yêu cầu của tính năng
 
 ### Cấu hình
 
-- Thiết lập tỷ lệ quy đổi từ doanh thu ra điểm
+- Thiết lập tỷ lệ quy đổi từ doanh thu ra điểm.
 - Thông tin chi tiết:
 
 | Trường thông tin | Mô tả | Thuộc tính |
@@ -67,7 +67,7 @@ Dưới đây là mô tả yêu cầu của tính năng
 
 ### Giao dịch tích điểm
 
-- Các giao dịch tăng/ giảm điểm hoặc doanh thu tác động lên thẻ tích điểm của khách hàng
+- Các giao dịch tăng/ giảm điểm hoặc doanh thu tác động lên thẻ tích điểm của khách hàng.
 - Thông tin chi tiết:
 
 | Trường thông tin | Mô tả | Thuộc tính |
@@ -82,7 +82,7 @@ Dưới đây là mô tả yêu cầu của tính năng
 <br>
 
 ## Yêu cầu
-- Viết API cho phép chỉnh sửa cấu hình tích điểm lưu trữ vào database
+- Viết API cho phép chỉnh sửa cấu hình tích điểm lưu trữ vào database.   
 - Từ dữ liệu đầu vào gồm các thông tin:
     - Thẻ tích điểm của khách hàng
     - Hạng thẻ tích điểm
@@ -91,9 +91,13 @@ Dưới đây là mô tả yêu cầu của tính năng
 
     Xử lý tích điểm vào thẻ cho khách hàng dựa trên giao dịch, thay đổi thông tin hạng thẻ của khách hàng tương ứng   
     Lưu ý: không yêu cầu lưu dữ liệu vào database, tập trung vào xử lý tích điểm, không yêu cầu import dữ liệu từ file excel.
-- Viết test với tập dữ liệu mẫu có sẵn
+- Viết test với tập dữ liệu mẫu có sẵn.
 - Tuỳ chọn trả lời một số câu hỏi bổ sung sau:
     - Nếu giao dịch được tổng hợp từ các hệ thống khác và định kỳ được tải lên hệ thống tích điểm, thì xử lý như thế nào trong trường hợp cấu hình quy đổi điểm bị thay đổi giữa các lần giao dịch của khách hàng.    
     VD: Khách hàng có 3 giao dịch mua hàng vào buổi sáng, và 2 giao dịch vào buổi chiều cùng ngày. Cấu hình quy đổi điểm được thay đổi vào 12h trưa ngày hôm đó. 22h cuối ngày thì dữ liệu mới được tổng hợp về hệ thống tích điểm.
     - Để tăng hiệu năng hệ thống khi có rất nhiều giao dịch của nhiều khách hàng đồng thời thì có giải pháp nào không?
 
+### Lưu ý:
+- Nếu bạn dùng mysql/sql server/postgresql,v..v... xin hãy gửi cho chúng tôi schema của bạn.
+- Bạn vui lòng mô tả chúng tôi biết từng bước để chạy được từng ý của bài tập.
+- Đẩy dự án lên Git và gửi đường link cho chúng tôi theo địa chỉ interviewer.tech@sapo.vn
