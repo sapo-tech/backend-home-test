@@ -100,4 +100,4 @@ Dưới đây là mô tả yêu cầu của tính năng:
 ### Lưu ý:
 - Nếu bạn dùng mysql/sql server/postgresql,v..v... xin hãy gửi cho chúng tôi schema của bạn.
 - Bạn vui lòng mô tả chúng tôi biết từng bước để chạy được từng ý của bài tập.
-- Đẩy dự án lên Git và gửi đường link cho chúng tôi theo địa chỉ interviewer.tech@sapo.vn
+- Đẩy dự án lên Git và gửi đường link cho chúng tôi theo địa chỉ tuyendung@sapo.vn
